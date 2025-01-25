@@ -1,6 +1,6 @@
 # Portofolio Saya
 
-Ini adalah proyek portofolio saya yang dibuat menggunakan [Next.js](https://nextjs.org), sebuah framework React modern untuk pengembangan aplikasi web. Proyek ini dirancang untuk menampilkan pengalaman, keterampilan, dan karya terbaik saya.
+Ini adalah proyek portofolio saya riski yang dibuat menggunakan [Next.js](https://nextjs.org), sebuah framework React modern untuk pengembangan aplikasi web. Proyek ini dirancang untuk menampilkan pengalaman, keterampilan, dan karya terbaik saya.
 
 ## Memulai Proyek
 
