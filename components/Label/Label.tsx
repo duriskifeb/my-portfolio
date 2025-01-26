@@ -9,3 +9,5 @@ function Label({ label }: LabelProps) {
         </div>
     )
 }
+
+export { Label };
