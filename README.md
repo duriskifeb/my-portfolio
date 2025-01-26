@@ -1,61 +1,36 @@
-# Portofolio Saya
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Ini adalah proyek portofolio saya riski yang dibuat menggunakan [Next.js](https://nextjs.org), sebuah framework React modern untuk pengembangan aplikasi web. Proyek ini dirancang untuk menampilkan pengalaman, keterampilan, dan karya terbaik saya.
+## Getting Started
 
-## Memulai Proyek
+First, run the development server:
 
-Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-1. **Instalasi Dependensi**
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-   Pastikan Anda sudah menginstal Node.js di komputer Anda. Kemudian, jalankan perintah berikut:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-   ```bash
-   npm install
-   ```
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-2. **Jalankan Server Pengembangan**
+## Learn More
 
-   Setelah dependensi diinstal, jalankan server pengembangan dengan salah satu perintah berikut:
+To learn more about Next.js, take a look at the following resources:
 
-   ```bash
-   npm run dev
-   # atau
-   yarn dev
-   # atau
-   pnpm dev
-   ```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-3. **Akses di Browser**
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-   Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
+## Deploy on Vercel
 
-## Fitur
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- **Penggunaan Next.js**: Proyek ini memanfaatkan fitur-fitur modern Next.js, termasuk optimasi bawaan untuk performa dan SEO.
-- **Font yang Dioptimalkan**: Proyek menggunakan [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) untuk memuat font [Geist](https://vercel.com/font) yang mendukung tampilan profesional.
-- **Desain Responsif**: Dirancang agar dapat diakses dengan baik di berbagai perangkat, baik desktop maupun seluler.
-
-## Struktur Folder
-
-- `app/page.tsx`: File utama untuk halaman beranda portofolio.
-- `public/`: Folder untuk aset statis seperti gambar.
-- `styles/`: Folder untuk file CSS atau file styling lainnya.
-
-## Belajar Lebih Lanjut
-
-Untuk mempelajari lebih lanjut tentang teknologi yang digunakan dalam proyek ini, kunjungi:
-
-- [Dokumentasi Next.js](https://nextjs.org/docs): Informasi lengkap tentang fitur dan API Next.js.
-- [Tutorial Interaktif Next.js](https://nextjs.org/learn): Panduan interaktif untuk belajar Next.js.
-- [GitHub Next.js](https://github.com/vercel/next.js): Tempat berbagi umpan balik dan kontribusi.
-
-## Deploy
-
-Proyek ini dapat dengan mudah di-deploy menggunakan platform [Vercel](https://vercel.com), platform hosting dari pembuat Next.js.
-
-Ikuti panduan [deploy Next.js](https://nextjs.org/docs/app/building-your-application/deploying) untuk mempelajari cara mempublikasikan proyek ini ke Vercel atau platform lain.
-
----
-
-Terima kasih telah mengunjungi portofolio saya! Jangan ragu untuk memberikan umpan balik atau menghubungi saya melalui halaman kontak di proyek ini.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
