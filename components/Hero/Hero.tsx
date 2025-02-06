@@ -15,13 +15,14 @@ function Hero() {
         </p>
       </div>
       <div className="mx-auto">
-        <Image
-          src="/images/Pattern.svg"
+        {/* /TODO: Skip this */}
+        {/* <Image
+          src="/images/PatternUpdate1.svg"
           width={700}
           height={700}
           alt="pattern"
           className="absolute bottom-0 right-0 top-16 z-0"
-        />
+        /> */}
         <Image
           src="/images/AvatarRizky1.png"
           width={224}

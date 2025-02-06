@@ -9,8 +9,8 @@ export default function Page() {
     <Layout pageTitle="Homepage">
       <Hero />
       <SectionJourney />
-      <PortfolioContainer />
-      <LearnContainer />
+      {/* <PortfolioContainer /> */}
+      {/* <LearnContainer /> */}
       <SectionContact />
     </Layout>
   );

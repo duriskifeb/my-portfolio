@@ -12,7 +12,7 @@ function Layout({ children, pageTitle }: LayoutProps) {
   return (
     <>
       <Head>
-        <title>feb | {pageTitle}</title>
+        <title>duriski | {pageTitle}</title>
         <meta name="description" content="Home page" />
         <script
           type="text/javascript"

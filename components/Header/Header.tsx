@@ -22,8 +22,6 @@ function Header() {
   const navItems: NavItem[] = [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "#journey", icon: BriefcaseIcon, label: "Journey" },
-    { href: "#portfolio", icon: ComputerDesktopIcon, label: "Portfolio" },
-    { href: "#learn", icon: BoltIcon, label: "Learn" },
     {
       href: "#contact",
       icon: ChatBubbleOvalLeftEllipsisIcon,
@@ -31,7 +29,7 @@ function Header() {
     },
   ];
 
-  useEffect(() => {
+  useEffect(() => { 
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
 
@@ -80,12 +78,12 @@ function Header() {
             <div className="flex items-center flex-col gap-1">
               <item.icon
                 className={`h-6 w-6 md:hidden ${
-                  activeSection === item.href ? "text-pink" : "text-gray"
+                  activeSection === item.href ? "text-blue-900" : "text-gray"
                 }`}
               />
               <p
                 className={`text-xs md:text-lg ${
-                  activeSection === item.href ? "text-pink" : "text-gray"
+                  activeSection === item.href ? "text-blue-900" : "text-gray"
                 }`}
               >
                 {item.label}
