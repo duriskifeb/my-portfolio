@@ -1,0 +1,5 @@
+# Aturan untuk semua file teks
+* text=auto
+
+# Spesifik untuk file SVG agar tetap menggunakan LF
+*.svg text eol=lf
