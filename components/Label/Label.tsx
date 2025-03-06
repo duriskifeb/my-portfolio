@@ -4,8 +4,17 @@ type LabelProps = {
 
 function Label({ label }: LabelProps) {
   return (
-    <div className="bg-gradient-to-r from-green-400 to-invert px-3 py-2 rounded-full w-fit">
-      <p className="text-blue-900 font-medium">{label}</p>
+    <div
+      style={{
+        background:
+          "linear-gradient(to right, rgba(34, 139, 34, 0.6), rgba(34, 139, 34, 0.2))",
+        border: "1px solid rgba(34, 139, 34, 0.4)",
+        padding: "8px 12px",
+        borderRadius: "9999px",
+        width: "fit-content",
+      }}
+    >
+      <p className="text-white font-medium">{label}</p>
     </div>
   );
 }
