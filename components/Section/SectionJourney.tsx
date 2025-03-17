@@ -4,33 +4,30 @@ function SectionJourney() {
   return (
     <div
       id="journey"
-      className="grid md:grid-cols-2 gap-6 items-center page-center md:pt-24  py-12"
+      className="grid md:grid-cols-2 gap-6 items-center page-center md:pt-24  py-12 -mt-5"
     >
       <div className="mx-auto">
         <Image src="/images/foto.png" width={531} height={399} alt="Journey" />
       </div>
       <div className="grid gap-8">
-        <div className="grid gap-4">
+        <div className="grid gap-4">  
           <h2 className="text-ink font-bold md:text-3xl text-xl">
-            This My Journey 🔥
+            Sedikit tentang ku 🙃
           </h2>
           <p className="text-ink font-light md:text-lg text-md">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Aku orang Pasuruan, East java. suka makan dan merokok, mungkin
+            membaca dan menulis adalah hobiku, suka jalan jalan dan melihat hal
+            keramain dan pemandangan alam terkadnang romantis
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat
+            Hobi dan kesukaanku adalah membaca dan menulis terkadang dan
+            menuliskan sebuah code asal yg tak mengerti apa masksud dan
+            logikanya persetan!
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat
+            Kebebasan dan kelasngsungan hidup tanpa ada batasan adalah mungkin,
+            pegangan ku aku tidak mau seprti di kurung oleh dunia eksakta dunia
+            materi dan tori bebas aja lah, buat apa aja
           </p>
         </div>
         {/* Coming Soon for this */}

@@ -23,10 +23,7 @@ function Header() {
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "#journey", icon: BriefcaseIcon, label: "Journey" },
     {
-      href: "#contact",
-      icon: ChatBubbleOvalLeftEllipsisIcon,
-      label: "Contact",
-    },
+      href: "#contact", icon: ChatBubbleOvalLeftEllipsisIcon, label: "Contact" },
   ];
 
   useEffect(() => { 
@@ -39,7 +36,7 @@ function Header() {
         setIsScrolled(false);
       }
 
-      const sections = navItems.map((item) => item.href.replace("#", ""));
+      const sections = navItems.map((item) => item.href.replace("#", "" ));
 
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
@@ -62,7 +59,7 @@ function Header() {
     handleScroll(); // Call once to set initial state
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", handleScroll)  ;
     };
   }, []);
 
@@ -81,7 +78,7 @@ function Header() {
                   activeSection === item.href ? "text-blue-900" : "text-gray"
                 }`}
               />
-              <p
+              <p  
                 className={`text-xs md:text-lg ${
                   activeSection === item.href ? "text-blue-900" : "text-gray"
                 }`}

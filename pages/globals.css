@@ -35,11 +35,12 @@ p {
 }
 
 .section-contact {
-  background-image: url("/images/BannerQuestion.png");
+  background-image: url("/images/Section1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 184px 0;
+  /* margin: 4px; */
+  padding: 215px;
 }
 /* src/components/Button.module.css */
 .button {
