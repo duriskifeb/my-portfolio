@@ -10,8 +10,8 @@ function Hero() {
           Sofware Engineering Student TUS '23
         </h1>
         <p className="text-ink font-light md:text-xl text-lg md:w-9/12">
-          <b>#MulaiAjaDulu</b> lalu bikin yang lebih baik kalau tidak maka
-          tidak akan bertumbuh!. 📝
+          <b>#MulaiAjaDulu</b> lalu bikin yang lebih baik kalau tidak maka tidak
+          akan bertumbuh!. 📝
         </p>
       </div>
       <div className="mx-auto">
@@ -24,7 +24,7 @@ function Hero() {
           className="absolute bottom-0 right-0 top-16 z-0"
         /> */}
         <Image
-          src="/images/AvatarRizky1.png"
+          src="/images/rizkyUP2.png"
           width={224}
           height={189}
           alt="pattern"

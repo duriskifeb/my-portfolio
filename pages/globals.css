@@ -17,6 +17,7 @@ a {
 .page-center {
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 35px;
   max-width: 1200px;
 }
 
@@ -40,7 +41,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   /* margin: 4px; */
-  padding: 215px;
+  padding: 290px;
 }
 /* src/components/Button.module.css */
 .button {
